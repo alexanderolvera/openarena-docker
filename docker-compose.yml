@@ -1,0 +1,6 @@
+services:
+  openarena:
+    image: alexanderolvera/openarena
+    restart: always
+    ports:
+      - "27960:27960"
